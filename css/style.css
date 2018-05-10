@@ -1,0 +1,96 @@
+body{
+  background-color: #ed7892d6;
+}
+
+.App{
+  
+  height: 600px;
+  width: 330px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f7f7f7;
+  border: 1px solid #796d5d7a;
+  border-radius: 20px;
+  box-shadow: 27px 23px 20px -1px rgba(0, 0, 0, 0.46), inset -1px -6px 12px 0.1px #89847e;
+  
+}
+
+.input-container {
+    width: 85%;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #b4b39d;
+    border-radius: 6px;
+    background-color: #c3c2aba3;
+    margin-top: 110px;
+    box-shadow: inset 5px 5px 5px 0px rgba(0,0,0,0.75);  
+}
+
+input{
+  font-family: 'Orbitron', san-serif;
+  text-align: right;
+  background-color: transparent;
+  font-size: 40px;
+  width: 98%;
+  border: none;
+  padding-top: 15%
+}
+
+.buttons-container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.buttons-container button{
+    font-family: 'Nunito', sans-serif;
+    border: 2px outset rgba(107, 96, 96, 0.75);
+    border-radius: 3px;
+    box-shadow: inset 15px 15px 22px -17px rgba(204,204,204,1);
+    width: 20%;
+    height: 40px;
+    line-height: 10px;
+    margin: 5px;
+    outline: none;
+    background: #f7f7f7;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+ 
+}
+
+#emoji-button{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+}
+#on-button{
+    font-size: 15px;
+    width: 25%;
+    height: 40px;
+}
+
+.panel{
+    position: relative;
+    width: 160px;
+    height: 40px;
+    left: 146px;
+    top: 40px;
+    background: #76282A;
+    box-shadow: inset 10px 5px 6px 0px rgba(0, 0, 0, 1.0);
+}
+
+hr {
+    border-left: 1px groove #fff;
+    height: 30px;
+    position: absolute;
+    right: 50%;
+    margin-left: -33px;
+    top: -2px;
+}
